@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Onkruid</title>
+</head>
+<body style="margin: 0 !important; overflow: hidden;">
+
+
+<iframe id="deframe" style=" width: 100%;height: 100vh;border: none; margin: 0 !important; overflow: hidden"></iframe>
+<script>
+
+    var website;
+    var random = Math.floor(Math.random() * 10);
+
+    if(random === 1){
+        website = "https://brentkoning.nl";
+    } else if(random === 2){
+        website = "https://jmcvink.nl";
+    }else if(random === 3){
+        website = "https://alexwestendorp.nl";
+    }else if(random === 4){
+        website = "https://markheij.nl";
+    }else if(random === 5){
+        website = "https://jmcvink.nl";
+    }else if(random === 6){
+        website = "https://brentkoning.nl";
+    }else if(random === 7){
+        website = "https://markheij.nl";
+    }else if(random === 8){
+        website = "https://markheij.nl";
+    }else if(random === 9){
+        website = "https://semekkelboom.nl/";
+    }else{
+        website = "https://semekkelboom.nl/";
+    }
+
+
+    document.getElementById("deframe").src = website;
+
+</script>
+</body>
+</html>
